@@ -6,3 +6,5 @@ The mc36xx family is an ultra-low power, low noise, integrated digital output 3-
 For evaluation purpose, EVA3635/EVA3672 is a prebuilt circuit board with the MC3635/MC3672 accelerometer sensor, with an internal sample rate from 14 to 1300 samples/second. It measures acceleration with a wide usage range, from +/-2g up to +/-16g. It offers 8-bit to 14-bit high-precision ADC output which is easy mounted onto a microcontroller platform, such as Arduino. The accelerometer communicates via I2C (or SPI) and gives out motion detection or sample acquisition conditions to trigger an interrupt toward a MCU.
 
 Sensor data is easily read by simply connecting DVDD to 3.3V, GND to ground, and SPI (DOUT, SCK, SCL) pins to your Arduino SPI (MISO, MOSI, CLK) respectively. Download the MC3635 library from mCube’s website onto the board, run the example sketch, and then sensor data shortly comes out in raw data count and SI unit accelerometer measurements.
+
+This driver is fully compatible with Nordic nrf51822/nrf52832, Ambiq Apollo II/Apollo II BLE/Apollo III and Dialog DA1458X/DA1468X/DA1469X, etc.
