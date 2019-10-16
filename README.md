@@ -1,5 +1,5 @@
-# Accelerometer_mc36xx_mcu_driver
-Driver for mc36xx family which is compatible for all micro-controller.
+# mc36xx_mcu_driver
+SW Driver for mc36xx family compatible for all micro-controller.
 
 The mc36xx family is an ultra-low power, low noise, integrated digital output 3-axis accelerometer with a feature set optimized for wearables and the Internet of Moving Things (IoMT) devices. With its low power modes and tiny footprint this accelerometer extends sensor battery life and reduces the space required for the sensor by up to 3X. Low noise and low power are inherent in the monolithic fabrication approach.
 
@@ -7,4 +7,4 @@ For evaluation purpose, EVA3635/EVA3672 is a prebuilt circuit board with the MC3
 
 Sensor data is easily read by simply connecting DVDD to 3.3V, GND to ground, and SPI (DOUT, SCK, SCL) pins to your Arduino SPI (MISO, MOSI, CLK) respectively. Download the MC3635 library from mCube’s website onto the board, run the example sketch, and then sensor data shortly comes out in raw data count and SI unit accelerometer measurements.
 
-This driver is fully compatible with Nordic nrf51822/nrf52832, Ambiq Apollo II/Apollo II BLE/Apollo III and Dialog DA1458X/DA1468X/DA1469X, etc.
+This driver is ARM M0/M4F compatible with Nordic nrf51822/nrf52832, Ambiq Apollo II/Apollo II BLE/Apollo III and Dialog DA1458X/DA1468X/DA1469X, etc.
